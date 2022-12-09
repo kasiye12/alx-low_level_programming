@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
  * main - main block
  * Description: Write a program that prints all possible
  * different combinations of two digits
@@ -15,7 +15,7 @@
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
  * Return: 0
-
+ */
 int main(void)
 {
 	int c;
