@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - main block
  * description: get a random number and print number
@@ -19,5 +19,7 @@ int main(void)
 		printf("%i is negative\n", n);
 	else
 		printf("%i is zero\n", n);
+
 	return (0);
+
 }
