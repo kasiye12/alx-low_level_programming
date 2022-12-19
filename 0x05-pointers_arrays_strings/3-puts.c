@@ -1,14 +1,19 @@
 #include "kasiye"
 /**
- * _strlen - find the length of a string
- * @s: pointer to the string to chech
+ *_puts - prints a string, follow by a new line,
+ * @str: pointer to the string to print
  * Return: void
  */
-int _strlen(char *s)
+
+void _puts(char *str)
 {
 	int i = 0;
 
-	while (s[i])
+	while (str[i])
+	{
+		_putchar(str[i]);
 		i++;
-	return (i);
+	}
+
+	_putchar('\n');
 }
