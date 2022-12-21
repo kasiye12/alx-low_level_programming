@@ -1,4 +1,4 @@
-#include "kasiye.h"
+#include <stdio.h>
 
 /**
  * rev_string - reverse array
@@ -76,4 +76,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	rev_string(r);
 	return (r);
 }
-
