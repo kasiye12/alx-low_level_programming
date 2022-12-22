@@ -1,4 +1,4 @@
-#include "kasiye.h"
+#include "main.h"
 
 /**
  * print_number - print numbers chars
