@@ -2,7 +2,6 @@
 /**
  * *cap_string - capitalize words
  * @str: pointer
- * @flag: slag
  * Return: capitalized string
  */
 
