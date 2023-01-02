@@ -4,7 +4,7 @@
  * _strspn - sunction that gets the length of prefix subscring
  * @s: initial segment
  * @accept: byte to check
- * Return :unsigned int
+ * Return: unsigned int
  */
 
 unsigned int _strspn(char *s, char *accept)
