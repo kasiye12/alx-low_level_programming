@@ -1,4 +1,4 @@
-#include "main.h"
+#include "kasiye.h"
 
 /**
  * set_string - sets pointer val to char
