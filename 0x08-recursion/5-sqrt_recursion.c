@@ -2,10 +2,9 @@
 
 /**
  * _sqrt_recursion - find natural square root
- * @n: int 
+ * @n: int
  * Return: int
  */
-
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
