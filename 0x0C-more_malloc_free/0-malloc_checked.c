@@ -1,4 +1,4 @@
-#include "kasiye.h"
+#include "main.h"
 
 /**
  * malloc_checked - allocates memory using malloc
