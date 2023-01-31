@@ -5,8 +5,8 @@
 
 /**
  * free_listint_safe - function that frees a listint_t list
+ * @head: wjdkjs
  * @h: double pointer to the struct listint_t
- *
  * Return: size_t, number of nodes in the linked list
  */
 
@@ -18,9 +18,9 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *current;
 
 	if (h == NULL)
-                return (0);
-        if (*h == NULL)
-                return (0);
+		return (0);
+	if (*h == NULL)
+		return (0);
 
 	current = *h;
 
