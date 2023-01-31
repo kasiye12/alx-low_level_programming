@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint1 - free a list.
+ * free_listint2 - free a list.
  * @head: Address of the first node a list.
  */
 
