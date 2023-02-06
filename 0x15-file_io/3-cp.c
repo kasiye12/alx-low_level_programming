@@ -88,7 +88,7 @@ int main(int ac, char *av[])
 	file_from = open(av[1], O_RDONLY);
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %d\n",
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n",
 				av[1]);
 		return (98);
 	}
